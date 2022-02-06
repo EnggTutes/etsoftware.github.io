@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+    font-family: sans-serif;
+}
+
+#Nav-Bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar{
+    background-image: linear-gradient(to right , #746bf5, #035361);
+    padding: important;
+}
+.navbar-brand img{
+    height: 50px;
+    padding-left: 20px;
+}
+
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    color: #fff !important;
+    font-weight: 600;
+}
+.navbar-toggler-icon{
+    color: #fff;
+}
+.fa-bars{
+    color: #fff;
+    font-size: 30px !important;
+}
+.navbar-toggler{
+    outline: none !important;
+}
+#banner{
+    background-image: linear-gradient(to right , #746bf5, #035361);
+    color: #fff;
+    padding-top: 5%;
+}
+
+.promo-text{
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 80px;
+}
+
+.play-btn{
+    width: 45px;
+    margin: 20px;
+}
+
+#banner a{
+    color: #fff;
+    text-decoration: none;
+}
+.wave-in{
+    width: 100%;
+}
+.title-a::before{
+    content: '';
+    background: #201798;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+.title-a{
+    font-weight: bolder;
+    padding-top: 4%;
+}
+.abouttext{
+    padding-top: 5%;
+    font-size: 20px;
+}
+.topptorow{
+    margin-top: 60px;
+}
+.topptorow p{
+    margin-top: 20px;
+}
+#services{
+    background-color: #b1abf8;
+    width: 100%;
+}
+.servies-class{
+    margin-top: 40px ;
+    padding-bottom: 50px;
+}
+.card-img-top{
+    height: 40%;
+    width: 40%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#services h4{
+    font-weight: bolder;
+}
+.Cp{
+    font-size: 20px;
+}
+
+#footer{
+
+    background-image: linear-gradient(to right ,#035361,#746bf5);   
+    color: #fff; 
+}
+#footer a{
+    color: #fff;
+    text-decoration: none;
+}
+.footerimage{
+    width: 100%;
+}
+.textleft{
+    text-align: left;
+}
+.btn-footer{
+    width: 50%;
+    
+    border-radius: 30px;
+}
+.btn-career{
+    width: 50%;
+    border-radius: 30px;
+    color: rgb(77, 80, 58);
+}
+.blue-text{
+    color: #201798;
+}
+
+.btn-career1{
+    width: 100%;
+    border-radius: 30px;
+    color: rgb(77, 80, 58);
+}
